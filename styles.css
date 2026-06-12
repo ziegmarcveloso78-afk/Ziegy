@@ -1,6 +1,7 @@
 body {
-
     background-color: lightblue;
+    margin: 0;
+    padding: 10px;
 }
 
 .first {
@@ -14,15 +15,10 @@ ul{
     margin: 0;
 }
 
-li {
-    display: flex;
-    justify-content: center;
-
-    align-items: center;
-    gap: 5px ;
+nav li {
+    display: inline-block;
+    margin: 5px;
 }
-
-
 
 nav ul {
   list-style: none;
