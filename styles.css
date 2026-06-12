@@ -98,3 +98,8 @@ body {
   margin: 10px auto 0;
 }
 
+.profile {
+    max-width: 100%;
+    height: auto;
+}
+
