@@ -1,0 +1,100 @@
+body {
+
+    background-color: lightblue;
+}
+
+.first {
+
+    text-align: center;
+}
+
+ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    gap: 5px ;
+}
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+nav a {
+  display: inline-block;
+  border: 4px solid black;
+  padding: 8px 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.des {
+    text-align: center;
+}
+
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url("z.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.one {
+  display: inline-block;
+ background-color: white;
+  padding: 5px 10px;
+}
+
+.two {
+  display: inline-block;
+   background-color: white;
+  padding: 5px 10px;
+}
+
+.three {
+  display: inline-block;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.four {
+  display: inline-block;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.zl {
+  display: inline-block;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.caption {
+  display: block;      /* IMPORTANT: forces new line */
+  background-color:white;
+  color: black;
+  padding: 10px;
+  width: fit-content;  /* makes background only as wide as text */
+  margin: 10px auto 0;
+}
+
